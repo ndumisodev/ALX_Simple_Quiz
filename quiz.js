@@ -2,11 +2,6 @@
 
 document.addEventListener('DOMContentLoaded', function() {
 
-    /**
-     * @function checkAnswer
-     * @description Checks the user's selected answer against the correct answer
-     * and displays appropriate feedback.
-     */
     function checkAnswer() {
 
         const correctAnswer = "4";
