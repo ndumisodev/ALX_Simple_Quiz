@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded', function() {
         performCalculation(subtract);
     });
 
-    // Get a reference to the multiplication button.
+    
     const multiplyButton = document.getElementById('multiply');
     // Add a click event listener. When clicked, call performCalculation with the 'multiply' function.
     multiplyButton.addEventListener('click', function() {
@@ -58,7 +58,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Get a reference to the division button.
     const divideButton = document.getElementById('divide');
-    // Add a click event listener. When clicked, call performCalculation with the 'divide' function.
     divideButton.addEventListener('click', function() {
         performCalculation(divide);
     });
