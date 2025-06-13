@@ -6,9 +6,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
         const correctAnswer = "4";
         const selectedChoice = document.querySelector('input[name="quiz"]:checked');
-
+        let userAnswer = null;
         if (selectedChoice) {
-            let userAnswer = selectedChoice.value;
+            userAnswer = selectedChoice.value;
         }
 
         // Get the feedback paragraph element to display messages.
@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function() {
         } else {
             // If the user's answer does not match, or no answer was selected
             feedbackElement.textContent = "That's incorrect. Try again!";
-            feedbackElement.style.color = "red"; 
+            feedbackElement.style.color = "red";
         }
     }
 
